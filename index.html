@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Medicines & Timings – Smart Lookup</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💊</text></svg>">
+</head>
+<body>
+  <div class="bg-overlay"></div>
+  <header>
+    <h1>Find medicines & when to take them</h1>
+    <form id="search-form" autocomplete="off" aria-label="Search disease">
+      <input id="query" name="q" type="search" placeholder="Type a condition (e.g., fever, cold, headache)" required />
+      <button type="submit" aria-label="Search">Search</button>
+    </form>
+    <p class="hint">Tip: Try <em>fever</em>, <em>cold</em>, <em>headache</em>, <em>acid reflux</em>, <em>allergy</em>.</p>
+  </header>
+
+  <main id="results" hidden>
+    <section class="summary">
+      <h2 id="condition-title"></h2>
+      <p class="disclaimer">⚠️ Educational use only. Always follow your clinician’s advice and read the label.
+        This app is not a substitute for professional medical guidance.</p>
+    </section>
+
+    <section class="table-wrap">
+      <h3>Suggested Medicines & Timings</h3>
+      <div class="table-scroll">
+        <table id="med-table" role="table" aria-label="Medicine details">
+          <thead>
+            <tr>
+              <th>Medicine</th>
+              <th>Dosage</th>
+              <th>When to take</th>
+              <th>Frequency / Duration</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="extras">
+      <div class="card">
+        <h3>Precautions</h3>
+        <ul id="precautions"></ul>
+      </div>
+      <div class="card">
+        <h3>Food & Lifestyle</h3>
+        <ul id="food"></ul>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <img src="https://images.unsplash.com/photo-1584362917165-526a968579e8?q=80&w=1200&auto=format&fit=crop" alt="Stethoscope and clipboard" />
+      <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Pills in blister pack" />
+      <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop" alt="Pharmacist counter" />
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Smart Med Lookup • Built for learning • Deployable on Netlify.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+{
+  "fever": {
+    "medicines": [
+      {
+        "name": "Paracetamol (Acetaminophen) 500 mg",
+        "dosage": "1 tablet",
+        "when": "After food",
+        "frequency": "Every 6–8 hours as needed; max 3 g/day",
+        "notes": "Avoid combining with other acetaminophen products."
+      },
+      {
+        "name": "Ibuprofen 200 mg",
+        "dosage": "1 tablet",
+        "when": "After food",
+        "frequency": "Every 8 hours as needed",
+        "notes": "Avoid if ulcer/kidney issues unless advised."
+      }
+    ],
+    "precautions": [
+      "Hydrate well and rest.",
+      "Seek care if fever > 3 days, > 39.4°C, or with severe symptoms.",
+      "Avoid multiple products containing acetaminophen."
+    ],
+    "food": [
+      "Plenty of fluids and light meals.",
+      "Avoid alcohol when taking acetaminophen or ibuprofen."
+    ]
+  },
+  "cold": {
+    "medicines": [
+      {
+        "name": "Cetirizine 10 mg",
+        "dosage": "1 tablet",
+        "when": "Evening",
+        "frequency": "Once daily for 3–5 days",
+        "notes": "May cause drowsiness."
+      },
+      {
+        "name": "Paracetamol 500 mg",
+        "dosage": "1 tablet",
+        "when": "After food",
+        "frequency": "Every 6–8 hours as needed",
+        "notes": ""
+      },
+      {
+        "name": "Saline nasal spray",
+        "dosage": "2–3 sprays/nostril",
+        "when": "Anytime",
+        "frequency": "3–4 times/day",
+        "notes": "Helps congestion; safe with most meds."
+      }
+    ],
+    "precautions": [
+      "See a clinician if symptoms persist > 7–10 days or high fever develops.",
+      "Decongestants can raise blood pressure; avoid unless approved."
+    ],
+    "food": [
+      "Warm fluids, soups, and honey (not for infants <1 year).",
+      "Avoid smoking and dusty environments."
+    ]
+  },
+  "headache": {
+    "medicines": [
+      {
+        "name": "Paracetamol 500 mg",
+        "dosage": "1 tablet",
+        "when": "After food",
+        "frequency": "Every 6–8 hours as needed",
+        "notes": ""
+      },
+      {
+        "name": "Ibuprofen 200 mg",
+        "dosage": "1 tablet",
+        "when": "After food",
+        "frequency": "Every 8 hours as needed",
+        "notes": "Avoid if gastric/renal issues."
+      }
+    ],
+    "precautions": [
+      "Seek urgent care for sudden severe headache, head injury, or neurological symptoms.",
+      "Limit painkillers to avoid rebound headaches."
+    ],
+    "food": [
+      "Hydration; regular meals; reduce caffeine excess.",
+      "Sleep hygiene and stress reduction."
+    ]
+  },
+  "acid reflux": {
+    "medicines": [
+      {
+        "name": "Antacid (Aluminum/Magnesium hydroxide)",
+        "dosage": "10–20 ml",
+        "when": "After meals & at bedtime",
+        "frequency": "As needed",
+        "notes": ""
+      },
+      {
+        "name": "Omeprazole 20 mg",
+        "dosage": "1 capsule",
+        "when": "Before breakfast",
+        "frequency": "Once daily for up to 14 days",
+        "notes": "Consult clinician for long-term use."
+      }
+    ],
+    "precautions": [
+      "See a clinician for persistent symptoms, weight loss, or difficulty swallowing."
+    ],
+    "food": [
+      "Avoid late-night meals; elevate head end during sleep.",
+      "Reduce spicy, fatty foods, caffeine, and alcohol."
+    ]
+  },
+  "allergy": {
+    "medicines": [
+      {
+        "name": "Loratadine 10 mg",
+        "dosage": "1 tablet",
+        "when": "Anytime",
+        "frequency": "Once daily",
+        "notes": "Non-drowsy in most people."
+      },
+      {
+        "name": "Cetirizine 10 mg",
+        "dosage": "1 tablet",
+        "when": "Evening",
+        "frequency": "Once daily",
+        "notes": "May cause drowsiness."
+      },
+      {
+        "name": "Fluticasone nasal spray",
+        "dosage": "1–2 sprays/nostril",
+        "when": "Morning",
+        "frequency": "Once daily",
+        "notes": "For allergic rhinitis; use regularly."
+      }
+    ],
+    "precautions": [
+      "Seek immediate care for breathing difficulty or facial swelling.",
+      "Check interactions if on other medications."
+    ],
+    "food": [
+      "Rinse after outdoor exposure; keep windows closed during high pollen.",
+      "Use saline nasal washes."
+    ]
+  }
+}
